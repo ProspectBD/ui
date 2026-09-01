@@ -24,6 +24,11 @@ interface LocaleExpectation {
   dayjsLocale: string;
 }
 
+// Ant Design has no Albanian pack. Pairing its English fallback with Dayjs
+// `sq` makes month-name formats parse as Invalid Date, so this shipped
+// application locale is excluded from the picker matrix.
+export const DATE_RANGE_MATRIX_EXCLUSIONS = ['sq'] as const;
+
 // This is deliberately independent of the production resolver. A wrong or
 // English-only resolver must fail the locale matrix instead of blessing itself.
 export const LOCALE_EXPECTATIONS = {
