@@ -1,10 +1,12 @@
 {
   "name": "@invoiceninja/ui",
-  "version": "28.06.2025.1",
+  "version": "17.08.2026.2",
   "private": true,
   "dependencies": {
     "@azure/msal-browser": "^3.28.1",
     "@docuninja/builder2.0": "^0.0.108",
+    "@emotion/styled": "^11.14.0",
+    "@excalidraw/excalidraw": "^0.18.0",
     "@fontsource/alex-brush": "^5.2.6",
     "@fontsource/dancing-script": "^5.2.6",
     "@fontsource/great-vibes": "^5.2.6",
@@ -147,6 +149,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@types/react-test-renderer": "^18.3.1",
+    "@types/uuid": "^11.0.0",
     "@vitejs/plugin-react": "^6.0.3",
     "autoprefixer": "^10.4.21",
     "concurrently": "^10.0.3",
