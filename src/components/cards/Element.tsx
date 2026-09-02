@@ -9,8 +9,7 @@
  */
 
 import classNames from 'classnames';
-import { ReactNode } from 'react';
-import { CSSProperties } from 'styled-components';
+import { type CSSProperties, type ReactNode } from 'react';
 import { useColorScheme } from '$app/common/colors';
 
 interface Props {

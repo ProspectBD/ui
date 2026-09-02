@@ -8,8 +8,7 @@
  * @license https://www.elastic.co/licensing/elastic-license
  */
 
-import { useEffect, useState } from 'react';
-import { CSSProperties } from 'styled-components';
+import { type CSSProperties, useEffect, useState } from 'react';
 import { useCurrentCompany } from '$app/common/hooks/useCurrentCompany';
 import { Element } from './cards';
 import { InputField } from './forms';

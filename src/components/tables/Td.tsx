@@ -1,7 +1,6 @@
 import classNames from 'classnames';
 import { useAtom } from 'jotai';
-import React, { useEffect } from 'react';
-import { CSSProperties } from 'styled-components';
+import React, { type CSSProperties, useEffect } from 'react';
 import { useColorScheme } from '$app/common/colors';
 import { useAccentColor } from '$app/common/hooks/useAccentColor';
 import {
